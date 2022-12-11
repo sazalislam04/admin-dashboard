@@ -42,7 +42,7 @@ const Layout = () => {
               <nav>
                 <Link
                   className="flex items-center px-4 py-2 rounded-lg bg-gray-800 text-gray-200"
-                  to=""
+                  to="/talent"
                 >
                   <svg
                     className="w-5 h-5"
