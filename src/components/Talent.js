@@ -41,6 +41,19 @@ const Talent = () => {
 
   return (
     <div className="overflow-x-auto">
+      <div className="flex justify-between items-center mb-5">
+        <input
+          type="text"
+          placeholder="Search by email"
+          className="input focus:outline-none input-bordered w-full max-w-xs"
+        />
+        <select className="select focus:outline-none select-bordered w-32">
+          <option disabled selected>
+            Sort By
+          </option>
+          <option value="verify">Verified</option>
+        </select>
+      </div>
       <table className="table table-zebra w-full">
         <thead>
           <tr>
